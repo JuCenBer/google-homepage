@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="font-family: Arial;" lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,55 @@
     <title>Google</title>
 </head>
 <body>
-    <header> <!--Encabezado de la homepage-->
-        <div class="header">
-            <a class="gmailBtn" href="#">Gmail</a> <a class="imgBtn" href="#">Imágenes</a>
-        </div>
+    <header class="header"> <!--Encabezado de la homepage-->
+            <div class="gmailBtn"><a href="#">Gmail</a></div> 
+            <div class="imgBtn"><a href="#">Imágenes</a></div>
+            </button>
+            <div class="menuBtn">
+                <div class="c1" id="punto"></div>
+                <div class="c2" id="punto"></div>
+                <div class="c3" id="punto"></div>
+                <div class="c4" id="punto" ></div>
+                <div class="c5" id="punto"></div>
+                <div class="c6" id="punto"></div>
+                <div class="c7" id="punto"></div>
+                <div class="c8" id="punto"></div>
+                <div class="c9"id="punto" ></div>
+            </div>
     </header>
     <main class="main">
-        <div>
+        <div class="glgBox">
             <img class="glg" src="https://1000marcas.net/wp-content/uploads/2020/02/Google-logo.jpg"> 
         </div>
         <div class="search">
-            <div> 
+            <div class="searchBarBox"> 
+                <img id="lupa" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png" alt="lupa de google">
                 <input id="searchBar" type="text">
+                <img id="microfono" src="google_mic_logo_icon_159335.png" alt="microfono de google">
             </div>
-            <div class="btn">
-                <button class="btn1" type="submit">Buscar con Google</button>
-                <button class="btn2" type="submit">Me siento con suerte</button>
+            <div class="btns">
+                <button class="btn1" type="submit" style="font-size: 14px;">Buscar con Google</button>
+                <button class="btn2" type="submit" style="font-size: 14px;">Me siento con suerte</button>
             </div>
         </div>
-       <div class="txt"><p>Ofrecido por Google en: <a href="#" style="color:blue">English</a>   <a href="#" style="color:blue">Español(Latinoamérica)</a></p></div>
+       <div class="txt"><p style="font-size: 14px; margin-top: 20px;">Ofrecido por Google en: <a href="#" style="color:blue;">English</a>   <a href="#" style="color:blue">Español(Latinoamérica)</a></p></div>
     </main>
 </body>
 
-<footer class="footer">
-    <p>Argentina</p>
-    <hr>
-    <div>
-        <div></div>
+<footer class="footer" style="background-color:rgb(242,242,242)">
+    <p style="padding-left: 20px; padding-top: 2px;">Argentina</p>
+    <div class="footerBox" style="background-color:rgb(242,242,242)">
+        <div class="footer1" >
+         <div class="footerBtns1"><a style="color: rgba(0,0,0,.54);" href="#">Sobre Google</a></div>
+         <div class="footerBtns1"><a style="color: rgba(0,0,0,.54);" href="#">Publicidad</a></div>
+         <div class="footerBtns1"><a style="color: rgba(0,0,0,.54);" href="#">Negocios</a></div>
+         <div class="footerBtns1"><a style="color: rgba(0,0,0,.54);" href="#">Cómo funciona la Busqueda</a></div>
+        </div>
+        <div class="footer2">
+            <div class="footerBtns2"><a style="color: rgba(0,0,0,.54);" href="#">Privacidad</a></div>
+            <div class="footerBtns2"><a style="color: rgba(0,0,0,.54);" href="#">Condiciones</a></div>
+            <div class="footerBtns2"><a style="color: rgba(0,0,0,.54);" href="#">Preferencias</a></div>
+        </div>
     </div>
 </footer>
 </html>
